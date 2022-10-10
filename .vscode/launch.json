@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch SpringCloudConfigServerApplication",
+      "request": "launch",
+      "mainClass": "com.codevui.springcloudconfigserver.SpringCloudConfigServerApplication",
+      "projectName": "spring-cloud-config-server"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-LimitsServiceApplication<limits-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.codevui.limitsservice.LimitsServiceApplication",
+      "projectName": "limits-service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
